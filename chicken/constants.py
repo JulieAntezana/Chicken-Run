@@ -1,0 +1,66 @@
+from game.shared.color import Color
+
+
+COLUMNS = 40
+ROWS = 20
+CELL_SIZE = 40
+MAX_X = 945
+MAX_Y = 400
+FRAME_RATE = 8
+FONT_SIZE = 15
+CAPTION = "Chicken"
+CYCLE_LENGTH = 1
+WHITE = Color(255, 255, 255)
+RED = Color(255, 0, 0)
+YELLOW = Color(255, 255, 0)
+GREEN = Color(34, 139, 34)
+BLUE = Color(0, 0, 255)
+MIDNIGHT_BLUE = Color(25, 25, 112)
+BLACK = Color(0,0,0)
+
+
+CAR_LANE_ONE = 325
+CAR_LANE_TWO = 287
+CAR_LANE_THREE = 247
+
+CAR_GAP = 160
+
+FOX_GAP = 400
+
+FOX_LANE = 15
+
+LOG_LANE_ONE = 194
+LOG_LANE_TWO = 154
+LOG_LANE_THREE =114
+
+IMAGE_FILE = "chicken/assets/images/000.png"
+
+BLACK_TRUCK = "chicken/assets/images/blacktruck.png"
+BLACK_CAR = "chicken/assets/images/black.png"
+GREEN_CAR = "chicken/assets/images/green.png"
+BLUE_CAR = "chicken/assets/images/blue.png"
+YELLOW_CAR = "chicken/assets/images/yellow.png"
+RED_TRUCK = "chicken/assets/images/redtruck.png"
+
+
+LONG_PLANK = "chicken/assets/images/longplank.png"
+PLANK = "chicken/assets/images/plank.png"
+BRANCH = "chicken/assets/images/branch.png"
+
+FOX_ONE = "chicken/assets/images/10.png"
+FOX_TWO = "chicken/assets/images/14.png"
+FOX_THREE = "chicken/assets/images/15.png"
+
+
+
+CHICKEN_IMAGES = [f"chicken/assets/images/{n}.png" for n in range(1, 7)]
+CHICKEN_RATE = 1
+BOOM = "chicken/assets/images/boom.png"
+CHICKENS_LIVES = 10
+
+GAME_PLAY_SOUND = "chicken/assets/sounds/welcome.mp3"
+CAR_HORN = "chicken/assets/sounds/horn.wav"
+DEAD_CHICKEN = "chicken/assets/sounds/dead.wav"
+LEVEL_UP = "chicken/assets/sounds/levelup.wav"
+GAME_OVER_SOUND = "chicken/assets/sounds/over.wav"
+
